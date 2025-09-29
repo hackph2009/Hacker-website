@@ -3,7 +3,7 @@
   --secondary-color: #2c4755;
   --section-padding: 60px;
   --section-background: #f6f6f6;
-  --main-transition: .3s;
+  --main-transition: 0.3s;
 }
 
 * {
@@ -19,8 +19,6 @@ html {
 body {
   font-family: "Work Sans", sans-serif;
 }
-
-
 
 .container {
   margin: 0 auto;
@@ -73,6 +71,9 @@ body {
 
 .header {
   padding: 20px;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
 }
 
 .header .container {
